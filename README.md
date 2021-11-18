@@ -18,7 +18,7 @@ EXEC master.dbo.sp_MSset_oledb_prop N'Microsoft.ACE.OLEDB.12.0', N'DynamicParame
 go
 ```
 
-```
+```sql
 SELECT
     取引先コード
 FROM
