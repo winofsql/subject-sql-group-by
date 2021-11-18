@@ -1,5 +1,7 @@
 # subject-sql-group-by
 
+## SQLServer 経由で Access から
+
 sqlcmd
 
 ```
@@ -14,4 +16,11 @@ EXEC master.dbo.sp_MSset_oledb_prop N'Microsoft.ACE.OLEDB.12.0', N'AllowInProces
 go
 EXEC master.dbo.sp_MSset_oledb_prop N'Microsoft.ACE.OLEDB.12.0', N'DynamicParameters', 1 
 go
+```
+
+```
+SELECT
+    取引先コード
+FROM
+    OPENDATASOURCE('Microsoft.ACE.OLEDB.12.0','Data Source=C:\app\workspace\販売管理.mdb')...取引データ;
 ```
