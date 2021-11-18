@@ -24,3 +24,5 @@ SELECT
 FROM
     OPENDATASOURCE('Microsoft.ACE.OLEDB.12.0','Data Source=C:\app\workspace\販売管理.mdb')...取引データ;
 ```
+
+[SQLServer の OPENDATASOURCE 関数による Excel の参照( Microsoft.Jet.OLEDB.4.0 と Microsoft.ACE.OLEDB.12.0 )](https://logicalerror.seesaa.net/article/131309317.html)
