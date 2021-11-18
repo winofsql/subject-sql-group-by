@@ -4,7 +4,7 @@
 
 sqlcmd
 
-```
+```sql
 sp_configure 'show advanced options', 1;
 go
 RECONFIGURE;
