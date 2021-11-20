@@ -51,7 +51,7 @@ FROM
 GROUP BY
     lightbox.取引データ.取引先コード;
 
--- 7) 得意先マスタ名を表示
+-- 7) 得意先名を表示
 SELECT
     lightbox.public.取引データ.取引先コード,
     max(lightbox.public.得意先マスタ.得意先名) AS 得意先名,
